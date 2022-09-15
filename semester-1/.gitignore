@@ -1,5 +1,0 @@
-# gitignore file for avoiding executables
-
-*
-!*.cpp
-!.gitignore

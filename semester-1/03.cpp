@@ -4,7 +4,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-double compute(double n)
+double compute(int n)
 {
   double res = 0;
   for (double i = 1; i <= n; i++)
@@ -14,8 +14,14 @@ double compute(double n)
   return res;
 }
 
-int main(){
-  double input;
+int main()
+{
+  int input = 0;
   std::cout << "Enter the value of n : " && std::cin >> input;
-  std::cout << "The required sum is : " << compute(input) << endl;
+  if (input < 1)
+  {
+    std::cout << "invalid input [n >= 1]\n";
+    return main();
+  }
+  std::cout << fixed << setprecision(2) << "The required sum is : " << compute(input) << endl;
 }

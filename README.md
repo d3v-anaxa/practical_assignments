@@ -1,4 +1,4 @@
-# COLLECE COMPUTER SCIENCE PRACTICAL
+# B.Sc. COMPUTER SCIENCE [PRACTICAL]
 
 ## CMSACOR01P: Programming Fundamentals using C/C++ Lab Practical: 60
 

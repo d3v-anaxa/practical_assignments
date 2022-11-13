@@ -15,14 +15,9 @@ int main()
   for (int i = 0; i < lines; i++)
   {
     for (int j = 0; j <= lines; j++)
-    {
       std::cout << (i + j >= lines ? "* " : "  ");
-    }
-
     for (int j = 0; j < i; j++)
-    {
       std::cout << "* ";
-    }
     std::cout << endl;
   }
 }

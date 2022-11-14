@@ -34,11 +34,8 @@ The menu should also include options to re-enter array and to quit the program.
 11. WAP that prints a table indicating the number of occurrences of each alphabet in the text entered as command line arguments.
 12. Write a program that swaps two numbers using pointers.
 13. Write a program in which a function is passed address of two variables and then alter its contents.
-14. Write a program which takes the radius of a circle as input from the user, passes it to another
-function that computes the area and the circumference of the circle and displays the value of
-area and circumference from the main() function.
-15. Write a program to find sum of n elements entered by the user. To write this program,
-allocate memory dynamically using malloc() / calloc() functions or new operator.
+14. Write a program which takes the radius of a circle as input from the user, passes it to another function that computes the area and the circumference of the circle and displays the value of area and circumference from the main() function.
+15. Write a program to find sum of n elements entered by the user. To write this program, allocate memory dynamically using malloc() / calloc() functions or new operator.
 16. Write a menu driven program to perform following operations on strings ->
 
 * Show address of each character in string

@@ -2,11 +2,8 @@
 #include <algorithm>
 
 int GCD (int n1, int n2) {
-    static int min = std::min(n1, n2);
-    if (min == 1) return min;
-    if (n1 % min == 0 && n2 % min == 0) return min;
-    min--;
-    return GCD(n1 , n2);
+    if (n1 == 0) return n2; // using euclidean algorithm
+    return GCD(n2 % n1 , n1);
 }
 
 int main(){

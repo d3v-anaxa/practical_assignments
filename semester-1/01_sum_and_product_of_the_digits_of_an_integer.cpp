@@ -15,6 +15,8 @@ WAP to print the sum and product of digits of an integer.
       
     • Program Code :
 */
+#include<iostream>
+using namespace std;
 int main(){
     int sum = 0, product = 1, i{};
     std::cout << "Enter an Integer : " && std::cin >> i;
@@ -24,7 +26,7 @@ int main(){
         i /= 10;
     }
    	std::cout << "The sum is : " << sum << std::endl;
-	std::cout << "\nThe product is : " << product << endl;
+	std::cout << "The product is : " << product << std::endl;
 	return 0;
 }
 	

@@ -8,7 +8,7 @@ using namespace std;
 
 bool isPrime(int x) // function for checking prime numbers
 {
-  for (int i = 2; i < x - 1; i++)
+  for (int i = 2; i < x ; i++)
       if (x % i == 0) return false;
   return true;
 }

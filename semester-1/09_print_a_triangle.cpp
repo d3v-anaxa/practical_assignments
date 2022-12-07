@@ -5,11 +5,9 @@
 //  * * * * * * *
 
 #include <iostream>
-#include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main(void){
   int lines{};
   std::cout << "Enter the height of the triangle : " && std::cin >> lines;
   for (int i = 0; i < lines; i++)

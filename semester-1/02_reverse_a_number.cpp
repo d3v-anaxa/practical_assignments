@@ -16,7 +16,10 @@ WAP to print to reverse a number.
     • Program Code :
 */
 
-int main(){
+#include <iostream>
+using namespace std;
+
+int main(void){
   int i{}, reverse = 0;
   std::cout << "Enter an Integer : " && std::cin >> i;
   while (i != 0)
@@ -26,6 +29,7 @@ int main(){
   }
   i = reverse;
   std::cout << "Reverse of the given integer is : " << i << endl;
+  return 0;
 }
 /*	
     • Output :

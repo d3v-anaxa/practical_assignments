@@ -18,17 +18,17 @@ WAP to compute the sum of the first n terms of the following series : S = 1 + 1/
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-  int i{};
-  double S = 0;
-  std::cout << "Enter the value of n : " && std::cin >> i;
-  if (i< 1) return -1;
-  while ( i != 0) {
-      S += ( 1 / double(i));
-      --i;
-  }
-  std::cout << fixed << setprecision(2) << "The required sum is : " << S << std::endl;
+int main() {
+int i{};
+double S = 0;
+std::cout << "Enter the value of n : " && std::cin >> i;
+if (i< 1) return -1;
+while ( i != 0) {
+     S += ( 1 / double(i));
+     --i;
+}
+std::cout << fixed << setprecision(2) << "The required sum is : " << S << std::endl;
+return 0;
 }
 /*	
     • Output :

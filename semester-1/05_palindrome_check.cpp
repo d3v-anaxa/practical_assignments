@@ -21,7 +21,7 @@ Write a function that checks whether a given string is Palindrome or not. Use th
 #include <iostream>
 using namespace std;
 
-bool palindrome_check(string str) {
+bool check_if_palindrome(string str) {
     for (size_t i = 0; i < str.length() / 2; ++i) {
         if (str[i] != str[str.length() - i - 1]) return false;
         }
@@ -31,7 +31,7 @@ bool palindrome_check(string str) {
 int main(){
 	string str{};
 	std::cout << "Enter a string : " && std::cin >> str;
-    	std::cout << (palindrome_check(str) ? "Is a palindrome" : "Not a palindrome") << std::endl;
+    	std::cout << (check_if_palindrome(str) ? "Is a palindrome" : "Not a palindrome") << std::endl;
     	return 0;
 }
 /*
